@@ -1,0 +1,28 @@
+* NGSPICE file created from and2_cmos.ext - technology: sky130A
+
+.subckt and2_cmos A B Y VPWR VGND
+X0 YB A VPWR VPWR sky130_fd_pr__pfet_01v8 ad=2.52 pd=4.6 as=3.6 ps=7.6 w=1.8 l=0.2
+X1 a_520_400# A YB VGND sky130_fd_pr__nfet_01v8 ad=1.4 pd=3.8 as=2 ps=6 w=1 l=0.2
+X2 VGND B a_520_400# VGND sky130_fd_pr__nfet_01v8 ad=2.3 pd=6.6 as=1.4 ps=3.8 w=1 l=0.2
+X3 VPWR B YB VPWR sky130_fd_pr__pfet_01v8 ad=4.14 pd=8.2 as=2.52 ps=4.6 w=1.8 l=0.2
+X4 Y YB VPWR VPWR sky130_fd_pr__pfet_01v8 ad=4.14 pd=8.2 as=4.5 ps=8.6 w=1.8 l=0.2
+X5 Y YB VGND VGND sky130_fd_pr__nfet_01v8 ad=2.3 pd=6.6 as=2.5 ps=7 w=1 l=0.2
+C0 VPWR Y 0.53498f
+C1 VPWR B 0.42296f
+C2 VPWR A 0.4239f
+C3 VPWR YB 0.99458f
+C4 a_520_400# B 0.01057f
+C5 a_520_400# A 0.00447f
+C6 a_520_400# YB 0.08069f
+C7 Y YB 0.1665f
+C8 A B 0.09983f
+C9 B YB 0.12445f
+C10 A YB 0.17348f
+C11 Y VGND 1.26866f
+C12 B VGND 1.52581f
+C13 A VGND 1.81322f
+C14 VPWR VGND 28.6982f
+C15 a_520_400# VGND 0.01832f
+C16 YB VGND 2.76782f
+.ends
+

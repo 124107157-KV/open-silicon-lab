@@ -1,0 +1,6 @@
+Cell: and2_cmos
+Extraction: completed
+Generated:
+  layout/gds/and2_cmos.gds
+  layout/lef/and2_cmos.lef
+  simulation/and2_cmos_extracted.spice

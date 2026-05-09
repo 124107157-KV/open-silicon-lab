@@ -1,0 +1,9 @@
+Cell: and2_cmos
+Tool: Magic SKY130
+Check: DRC
+
+Status: DRC CLEAN
+Total DRC errors found: 0
+
+Log file:
+reports/drc_magic_output.log

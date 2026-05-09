@@ -1,0 +1,17 @@
+
+Magic 8.3 revision 572 - Compiled on Monday 03 November 2025 01:10:29 AM GMT.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Processing system .magicrc file
+Switching to WIRING tool.
+Switching to NETLIST tool.
+Switching to PICK tool.
+Switching to BOX tool.
+Using technology "sky130A", version 1.0.555-0-gef86633
+Cell and2_cmos read from current working directory
+Total DRC errors found: 0
+DRC report written to reports/drc_summary.txt

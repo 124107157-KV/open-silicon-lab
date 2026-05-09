@@ -1,0 +1,22 @@
+* CMOS AND2 transient testbench
+* AND2 = NAND2 + INV
+
+.include and2_cmos_extracted.spice
+
+VDD VPWR 0 1.8
+VGND VGND 0 0
+
+VA A VGND PULSE(0 1.8 0n 100p 100p 10n 20n)
+VB B VGND PULSE(0 1.8 0n 100p 100p 20n 40n)
+
+CLOAD Y VGND 5f
+
+.tran 10p 80n
+
+.control
+run
+plot v(A) v(B) v(Y)
+write and2_tran.raw
+.endc
+
+.end
